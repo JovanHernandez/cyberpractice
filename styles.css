@@ -1,0 +1,46 @@
+#subheadings {
+	width: 80%;
+	margin: auto;
+	display: flex;
+}
+#subheadings > div {
+	font-weight: bold;
+	flex: 1 1 33%;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 80%;
+	height: 762px;
+	text-align: center;
+	overflow-y: scroll;
+}
+.section {
+	/* height: 762px; */
+	/* height: 100%; */
+	border: #003b5c solid 1px;
+	width: 25%;
+}
+.section.time {
+	flex: 1 1 8%;
+}
+.section.imager {
+	flex: 1 1 21%;
+}
+
+.t {
+	border-top: solid red 1px;
+	height: 30px;
+}
+#E1 {
+	text-align: center;
+}
+.e {
+	border: solid 1px olive;
+	height: 27px;
+	width: 70%;
+	margin: 0 auto 5px auto;
+	/* margin-bottom: 5px; */
+}
